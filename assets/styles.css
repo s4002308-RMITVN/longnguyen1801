@@ -1,0 +1,72 @@
+html {
+   background-color: black;
+   color: white;
+}
+body {
+   margin: 0%;
+   text-align: center;
+   overflow-x: hidden;
+}
+.top-container {
+   width: 100%;
+   height: 100vh;
+   background-image: url(badass-skeleton.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+.about {
+   padding: 100px 0;
+}
+
+
+.skill-list {
+   padding: 100px 0;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+h1 {
+   position: absolute;
+   z-index: 1;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   -webkit-text-stroke: 2px;
+   -webkit-text-fill-color: white;
+   color: black;
+   font-weight: bold;
+   font-size: 50px;
+   text-transform: uppercase;
+}
+
+#top-quote {
+   width: 100%;
+   top: 0;
+   -webkit-transform: scale(2,1.5);
+}
+#bottom-quote {
+   width: 100%;
+   bottom: 0;
+   -webkit-transform: scale(2,1.5);
+}
+.profile-pic {
+   border-radius: 50%;
+   width: 300px;
+}
+hr {
+   border: none;
+   padding: 100px 0;
+}
+hr::before {
+   content: "🦴🦴🦴🦴🦴";
+   font-size: 30px;
+}
+h2 {
+   font-size:xx-large;
+}
+.skill-img {
+   width: 200px;
+}
+
+p {
+   font-size: x-large;
+}
